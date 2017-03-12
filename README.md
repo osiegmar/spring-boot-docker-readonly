@@ -2,6 +2,11 @@
 
 Example project for Spring Boot application running inside a read-only docker container.
 
+Basically these steps are currently required:
+
+* Add `server.tomcat.basedir=/tmp/tomcat` to `application.properties`
+* Create `/tmp/tomcat` and `static` within `Dockerfile`
+
 See https://github.com/spring-projects/spring-boot/issues/8578 for background information.
 
 
