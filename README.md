@@ -12,3 +12,7 @@ See https://github.com/spring-projects/spring-boot/issues/8578 for background in
 docker build -t spring-boot-docker-readonly .
 docker run -ti --rm --read-only spring-boot-docker-readonly
 ```
+
+# Warning
+
+Don't consider this as a recommended solution! It's a **ugly hack** - for demonstration purposes only!
